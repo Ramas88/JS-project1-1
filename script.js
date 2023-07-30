@@ -74,7 +74,7 @@ alert(`Задание 8: ${age}`);
 // Задание 9
 console.log("Задание 9");
 
-let user = {
+const user = {
   name: "ALex",
   age: 18,
   isAdmin: true,
@@ -86,7 +86,7 @@ delete user["city of residence"];
 
 let info = prompt("Какую информацию хотите узнать о пользователе?", "name");
 
-alert(`Задание 9: ${user.name}`);
+alert(`Задание 9: ${user[info]}`);
 
 // Задание 10
 console.log("Задание 10");
